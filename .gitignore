@@ -4,6 +4,7 @@
 
 # Abhängigkeiten
 /node_modules
+package-lock.json
 
 # Logdateien
 *.log
