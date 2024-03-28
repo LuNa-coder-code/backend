@@ -52,7 +52,7 @@ Der Server ist jetzt auf `http://localhost:3000` erreichbar.
 
 ## Deployment
 
-Backend auf Cloud-Plattform Render
+Backend auf Render
 
 
 ## Lizenz
