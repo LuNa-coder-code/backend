@@ -1,5 +1,3 @@
-### Backend README.md
-
 # BoxCal Backend
 
 Das Backend von BoxCal dient als API-Server für die BoxCal Kalender-App, die alle anstehenden Boxwettkämpfe anzeigt. Es ermöglicht das Abrufen, Aktualisieren und Löschen von Wettkampfdaten über REST-API.
@@ -15,8 +13,7 @@ Das Backend von BoxCal dient als API-Server für die BoxCal Kalender-App, die al
 
 ## Voraussetzungen
 
-- Node.js
-- npm
+- Node.js Version 20.9.0
 - MongoDB oder ein MongoDB Atlas Konto
 
 ## Installation
@@ -24,7 +21,7 @@ Das Backend von BoxCal dient als API-Server für die BoxCal Kalender-App, die al
 1. **Repository klonen**
 
    ```
-   git clone https://github.com/yourusername/boxcal-backend.git
+   git clone https://github.com/LuNa-coder-code/backend
    cd backend
    ```
 
@@ -39,7 +36,8 @@ Das Backend von BoxCal dient als API-Server für die BoxCal Kalender-App, die al
 Erstellen Sie ein Cluster in MongoDB Atlas und fügen Sie Ihre Verbindungszeichenfolge zu einer `.env`-Datei im Wurzelverzeichnis des Projekts hinzu:
 
 ```
-DB_CONNECTION=mongodb+srv://<username>:<password>@<cluster-address>/boxcal?retryWrites=true&w=majority
+DB_CONNECTION=mongodb+srv_your_string_here
+DATABASE=your_db_name
 ```
 
 ## Starten des Servers
@@ -52,11 +50,10 @@ Der Server ist jetzt auf `http://localhost:3000` erreichbar.
 
 ## Deployment
 
-Backend auf Render
+Das Backend ist auf [Render](https://render.com/) deployed.
 
 
 ## Lizenz
 
 Dieses Projekt ist unter der MIT-Lizenz lizenziert.
 
-# backend
