@@ -1,0 +1,23 @@
+# Umgebungsvariablen
+.env
+.env.*
+
+# Abhängigkeiten
+/node_modules
+
+# Logdateien
+*.log
+logs
+
+# Editor-Verzeichnisse und -Dateien
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build-Ausgabe
+/dist
+/build
+
+# Temporäre Dateien
+/tmp
